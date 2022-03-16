@@ -7,10 +7,11 @@ public class ReadDataTest {
 	public void read()
 	{
 		String BROWSER = System.getProperty("browser");
-		System.out.println(BROWSER);
+		System.out.println("Browser------------->"+BROWSER);
 		
-		String URL = System.getProperty("url");
-		System.out.println(URL);
+		/*String URL = System.getProperty("url");
+		System.out.println(URL);*/
+		
 	}
 
 }
